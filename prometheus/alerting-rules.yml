@@ -1,0 +1,13 @@
+groups:
+  - name: mongodb_alerts
+    rules:
+      - alert: HighLatency
+        expr: mongodb_exporter_mongodb_up == 1 and mongodb_exporter_mongodb_command_latency_seconds{quantile="0.99"} > 0.5
+        for: 5m
+        labels:
+          severity: high
+        annotations:
+          summary: High MongoDB Latency Detected
+          description: MongoDB queries are experiencing high latency.
+
+      # Add more alerting rules as needed
