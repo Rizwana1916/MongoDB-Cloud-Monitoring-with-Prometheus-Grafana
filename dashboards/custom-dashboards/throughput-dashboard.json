@@ -1,1 +1,24 @@
-
+{
+  "title": "Throughput Dashboard",
+  "panels": [
+    {
+      "title": "Requests Per Second",
+      "type": "graph",
+      "targets": [
+        {
+          // Requests per second metric queries here
+        }
+      ]
+    },
+    {
+      "title": "Ops Per Second",
+      "type": "graph",
+      "targets": [
+        {
+          // Ops per second metric queries here
+        }
+      ]
+    }
+    // Additional throughput-related panels
+  ]
+}
