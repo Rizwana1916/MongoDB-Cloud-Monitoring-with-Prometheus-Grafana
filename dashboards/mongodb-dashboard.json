@@ -1,0 +1,42 @@
+{
+  "title": "MongoDB Performance Dashboard",
+  "panels": [
+    {
+      "title": "Latency",
+      "type": "graph",
+      "targets": [
+        {
+          // MongoDB latency metric queries here
+        }
+      ]
+    },
+    {
+      "title": "Throughput",
+      "type": "graph",
+      "targets": [
+        {
+          // MongoDB throughput metric queries here
+        }
+      ]
+    },
+    {
+      "title": "Memory Usage",
+      "type": "graph",
+      "targets": [
+        {
+          // MongoDB memory usage metric queries here
+        }
+      ]
+    },
+    {
+      "title": "Disk Usage",
+      "type": "graph",
+      "targets": [
+        {
+          // MongoDB disk usage metric queries here
+        }
+      ]
+    }
+    // More panels for additional metrics
+  ]
+}
