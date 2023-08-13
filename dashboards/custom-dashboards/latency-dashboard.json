@@ -1,1 +1,24 @@
-
+{
+  "title": "Latency Dashboard",
+  "panels": [
+    {
+      "title": "Average Latency",
+      "type": "graph",
+      "targets": [
+        {
+          // Average latency metric queries here
+        }
+      ]
+    },
+    {
+      "title": "99th Percentile Latency",
+      "type": "graph",
+      "targets": [
+        {
+          // 99th percentile latency metric queries here
+        }
+      ]
+    }
+    // Additional latency-related panels
+  ]
+}
