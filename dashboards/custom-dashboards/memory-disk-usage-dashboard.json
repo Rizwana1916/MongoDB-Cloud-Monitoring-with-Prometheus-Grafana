@@ -1,25 +1,24 @@
 {
-  "title": "Throughput Dashboard",
+  "title": "Memory & Disk Usage Dashboard",
   "panels": [
     {
-      "title": "Requests Per Second",
+      "title": "Memory Usage",
       "type": "graph",
       "targets": [
         {
-          // Requests per second metric queries here
+          // Memory usage metric queries here
         }
       ]
     },
     {
-      "title": "Ops Per Second",
+      "title": "Disk Usage",
       "type": "graph",
       "targets": [
         {
-          // Ops per second metric queries here
+          // Disk usage metric queries here
         }
       ]
     }
-    // Additional throughput-related panels
+    // Additional memory and disk usage panels
   ]
 }
-
